@@ -77,34 +77,6 @@ ZMK_HOLD_TAP(hmr,
             key-positions = <LT3 LT4>;
             bindings = <&kp ESC>;
         };
-        
-        combo_ae {
-            timeout-ms = <50>;
-            key-positions = <LT2 LM4>;
-            bindings = <&de_ae>;
-            layers = <DEFAULT>;
-        };
-        
-        combo_oe {
-            timeout-ms = <50>;
-            key-positions = <LT2 RT3>;
-            bindings = <&de_oe>;
-            layers = <DEFAULT>;
-        };
-        
-        combo_ue {
-            timeout-ms = <50>;
-            key-positions = <LT2 RT1>;
-            bindings = <&de_ue>;
-            layers = <DEFAULT>;
-        };
-
-        combo_sz {
-            timeout-ms = <50>;
-            key-positions = <LB4 LM3>;
-            bindings = <&de_eszett>;
-            layers = <DEFAULT>;
-        };
     };
 
     behaviors {
@@ -168,7 +140,7 @@ ZMK_HOLD_TAP(hmr,
 //             | TAB |     | SPC |   | ENT |     | BCK |
             bindings = <
    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5            &kp F6       &kp F7       &kp F8       &kp F9     &kp F10
-   &none        &kp PSCRN    &kp HOME     &kp END      &kp F11           &kp F12      &kp PG_UP    &kp PG_DN    &kp INSERT &kp C_BRI_UP
+   &bt BT_CLR   &kp PSCRN    &kp HOME     &kp END      &kp F11           &kp F12      &kp PG_UP    &kp PG_DN    &kp INSERT &kp C_BRI_UP
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &none        &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE &kp C_BRI_DN
                              &trans       &none        &kp SPACE         &kp RET      &none        &trans
             >;
