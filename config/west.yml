@@ -5,7 +5,7 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
     - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+      url-base: https://github.com/tweaknmod
   projects:
     - name: zmk
       remote: zmkfirmware
