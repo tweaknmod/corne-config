@@ -61,7 +61,7 @@
         };
 
         Bluetooth {
-            display-name = "Raise";
+            display-name = "BT";
             bindings = <
 &trans  &trans  &trans  &trans    &trans  &trans       &bt BT_CLR  &trans  &trans    &trans  &bt BT_SEL 4  &bt BT_SEL 2
 &trans  &trans  &trans  &trans    &trans  &trans       &trans      &trans  &trans    &trans  &trans        &bt BT_SEL 1
