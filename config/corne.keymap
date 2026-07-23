@@ -53,10 +53,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans                 &trans                 &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &trans                   &trans    &trans          &trans        &trans     &trans  &trans
-&trans  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))         &kp LA(TAB)                   &kp LS(LA(LC(LG(F))))    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans                 &trans                 &trans                        &trans                        &trans                   &trans    &trans          &trans        &trans     &trans  &trans
-                                                      &trans                        &trans                        &trans                   &trans    &trans          &trans
+&trans  &trans                 &trans                 &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))    &trans    &trans          &trans        &trans     &trans  &trans
+&trans  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))         &kp LA(TAB)                   &kp LS(LA(LC(LG(F))))           &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans                 &trans                 &trans                        &trans                        &trans                          &trans    &trans          &trans        &trans     &trans  &trans
+                                                      &trans                        &trans                        &trans                          &trans    &trans          &trans
             >;
         };
 
