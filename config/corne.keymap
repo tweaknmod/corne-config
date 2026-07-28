@@ -21,10 +21,10 @@
 
             display-name = "Base";
             bindings = <
-&lt 3 ESC                     &kp Q  &kp W  &kp E  &kp R         &kp T            &kp Y    &kp U      &kp I      &kp O    &kp P     &kp BACKSPACE
-&mt LS(LA(LC(LEFT_GUI))) TAB  &kp A  &kp S  &kp D  &kp F         &kp G            &kp H    &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT                     &kp Z  &kp X  &kp C  &kp V         &kp B            &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                            &mo 1  &kp LEFT_GUI  &kp BACKSPACE    &kp RET  &kp SPACE  &mo 2
+&lt 3 ESC                     &kp Q  &kp W  &kp E  &kp R         &kp T              &kp Y        &kp U      &kp I      &kp O    &kp P     &kp BACKSPACE
+&mt LS(LA(LC(LEFT_GUI))) TAB  &kp A  &kp S  &kp D  &kp F         &kp G              &kp H        &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT                     &kp Z  &kp X  &kp C  &kp V         &kp B              &kp N        &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                            &mo 1  &kp LEFT_GUI  &lt 1 BACKSPACE    &lt 2 ENTER  &kp SPACE  &mo 2
             >;
         };
 
@@ -54,7 +54,7 @@
             display-name = "Raise";
             bindings = <
 &trans  &trans                 &kp LA(NUMBER_1)       &kp LA(NUMBER_2)       &kp LA(NUMBER_3)  &kp LA(NUMBER_4)         &trans    &trans          &trans        &trans     &trans  &trans
-&trans  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LA(TAB)       &kp LS(LA(LC(LG(F))))    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LG(TAB)       &kp LS(LA(LC(LG(F))))    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &trans  &trans                 &trans                 &trans                 &trans            &trans                   &trans    &trans          &trans        &trans     &trans  &trans
                                                       &trans                 &trans            &trans                   &trans    &trans          &trans
             >;
