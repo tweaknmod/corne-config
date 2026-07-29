@@ -17,11 +17,11 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <180>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <6 18 30 31 19 7 8 20 32 33 21 9 10 22 34 35 23 11>;
-            require-prior-idle-ms = <125>;
-            quick-tap-ms = <175>;
+            require-prior-idle-ms = <120>;
+            quick-tap-ms = <150>;
         };
 
         HOME_ROW_MOD_RIGHT: HOME_ROW_MOD_RIGHT {
@@ -31,11 +31,11 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <280>;
+            tapping-term-ms = <180>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
-            require-prior-idle-ms = <125>;
-            quick-tap-ms = <175>;
+            require-prior-idle-ms = <120>;
+            quick-tap-ms = <150>;
         };
     };
 
