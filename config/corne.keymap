@@ -94,9 +94,9 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans                 &kp LA(NUMBER_1)       &kp LA(NUMBER_2)       &kp LA(NUMBER_3)  &kp LA(NUMBER_4)         &trans    &trans          &trans        &trans     &trans  &trans
-&trans  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LG(TAB)       &kp LS(LA(LC(LG(F))))    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans                 &trans                 &trans                 &trans            &trans                   &trans    &trans          &trans        &trans     &trans  &trans
+&trans  &trans                 &kp LA(NUMBER_1)       &kp LA(NUMBER_2)       &kp LA(NUMBER_3)  &kp LA(NUMBER_4)         &trans    &trans          &trans        &trans     &trans  &kp C_VOLUME_UP
+&trans  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LG(TAB)       &kp LS(LA(LC(LG(F))))    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &kp C_VOL_DN
+&trans  &trans                 &trans                 &trans                 &trans            &trans                   &trans    &trans          &trans        &trans     &trans  &kp K_MUTE
                                                       &trans                 &trans            &trans                   &trans    &trans          &trans
             >;
         };
